@@ -1,0 +1,192 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: #f7f7f7;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text .tags {
+  margin-bottom: 1.5rem;
+}
+
+.hero-text .tags span {
+  background-color: #333;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.hero-text button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hero stats */
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.hero-stats div {
+  text-align: center;
+}
+
+.hero-stats h2 {
+  font-size: 2rem;
+  color: #111;
+}
+
+.hero-stats p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Instructors Section */
+.instructors {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.instructors h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.instructor-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1.5rem;
+  width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.card h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #777;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 3rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.testimonial blockquote {
+  font-style: italic;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: #f7f7f7;
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  margin-left: 1.5rem;
+  color: #333;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
