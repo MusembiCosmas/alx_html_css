@@ -18,5 +18,20 @@ This is the first task of the ALX HTML & CSS project, based on a provided Figma 
   - Spin-Cycle-OT
 
 ## Directory Structure
+```
+headphones/
+├── index.html       # Main HTML file (to be created)
+├── style.css        # CSS file (to be created)
+├── README.md        # This file
+```
 
+## Task Status
 
+- [x] Figma file reviewed
+- [x] Design behavior understood
+- [x] README.md created and committed
+
+## Author
+
+Cosmas Musembi  
+ALX Frontend Student
