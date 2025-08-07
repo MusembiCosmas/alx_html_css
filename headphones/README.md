@@ -1,37 +1,35 @@
-# Headphones Landing Page
+# Headphones Project
 
-This is the first task of the ALX HTML & CSS project, based on a provided Figma design.
+This project is part of the ALX Software Engineering Program. It focuses on creating a responsive website based on a Figma design.
 
-## Objective
+## Figma Design
 
-- Understand the Figma layout and structure
-- Prepare to build a responsive landing page
+You can view and duplicate the Figma design [here](https://www.figma.com/file/0g0T8wSDJxXnXn3mYi9BLA/Headphones). Make sure you duplicate it to your drafts to inspect layout, fonts, spacing, and other design details.
 
-## Design Notes (from Figma)
+## Fonts
 
-- Page switches to mobile view at 480px screen width
-- Content max width: 1000px, centered
-- Hover/Active link color: #FF6565
-- Hover/Active button opacity: 0.9
-- Fonts used in the design:
-  - Source Sans Pro
-  - Spin-Cycle-OT
+This design uses two fonts:
 
-## Directory Structure
-```
-headphones/
-├── index.html       # Main HTML file (to be created)
-├── style.css        # CSS file (to be created)
-├── README.md        # This file
-```
+- [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
+- Spin-Cycle-OT (you may need to search and download it manually if not installed)
 
-## Task Status
+If these fonts are not available on your system, some layout differences may appear during development.
 
-- [x] Figma file reviewed
-- [x] Design behavior understood
-- [x] README.md created and committed
+## Important Notes
+
+- All content is centered with a maximum width of 1000px.
+- Responsive behavior: the layout changes when the screen width is 480px or less.
+- Hover and active styles:
+  - **Links:** `#FF6565`
+  - **Buttons:** `opacity: 0.9`
 
 ## Author
 
-Cosmas Musembi  
-ALX Frontend Student
+Cosmas Musembi
+
+## Repository Info
+
+- GitHub Repo: [alx_html_css](https://github.com/MusembiCosmas/alx_html_css)
+- Directory: `headphones`
+- File: `README.md`
+
