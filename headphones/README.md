@@ -1,26 +1,22 @@
 # Headphones Landing Page
 
-This project is part of the ALX Frontend curriculum. It involves creating a fully responsive and visually appealing landing page for a fictional headphones product, following a Figma design.
+This is the first task of the ALX HTML & CSS project, based on a provided Figma design.
 
-## Features
+## Objective
 
-- Responsive design with media queries
-- Switches to mobile layout at 480px width
-- Hover and active styles for buttons and links
-- Max content width of 1000px, centered
+- Understand the Figma layout and structure
+- Prepare to build a responsive landing page
 
-## Design Specifications
+## Design Notes (from Figma)
 
-- Fonts: Source Sans Pro, Spin-Cycle-OT
-- Colors, spacing, and layout based on Figma file
-- Rounded values from Figma float values
+- Page switches to mobile view at 480px screen width
+- Content max width: 1000px, centered
+- Hover/Active link color: #FF6565
+- Hover/Active button opacity: 0.9
+- Fonts used in the design:
+  - Source Sans Pro
+  - Spin-Cycle-OT
 
-## Technologies Used
+## Directory Structure
 
-- HTML5
-- CSS3 (Flexbox, custom fonts, responsive layout)
 
-## Author
-
-Cosmas Musembi  
-[GitHub Profile](https://github.com/MusembiCosmas)
